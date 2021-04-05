@@ -1,6 +1,6 @@
 import * as gulp from 'gulp';
 import { Service, project, activeTab, params, options } from '@wasm/studio-utils';
-import { transpile } from '@iceteachain/sunseed';
+import { transpile } from 'sunseed';
 import { IceteaWeb3 } from '@iceteachain/web3';
 import * as base64ArrayBuffer from 'base64-arraybuffer';
 
